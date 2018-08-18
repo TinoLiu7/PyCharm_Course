@@ -1,0 +1,8 @@
+c.NotebookApp.open_browser = True
+c.NotebookApp.port = 7654
+c.NotebookApp.notebook_dir = 'C://Users//Administrator//notebook'
+import webbrowser
+
+webbrowser.register('chrome', None,
+                    webbrowser.GenericBrowser('C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'))
+c.NotebookApp.browser = 'chrome'
